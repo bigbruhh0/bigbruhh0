@@ -1,61 +1,69 @@
 # Артур Сафин
 
-**Backend-разработка · автоматизация · AI-инструменты**
+**AI Engineer · Backend-разработка · автоматизация процессов**
 
-Разрабатываю прикладные backend-системы и инструменты для автоматизации рабочих процессов. Основные направления в проектах — Python/FastAPI, PHP/Symfony/Laravel, интеграции API, обработка документов и контейнеризация. В совместной разработке участвую в создании backend и клиентских приложений, проектных контрактов и процессов поставки.
+Более 5 лет занимаюсь backend-разработкой и автоматизацией бизнес-процессов. Работаю с Python/FastAPI и PHP/Symfony, проектирую API и интеграции, разбираю ручные workflow и превращаю их в сервисы и внутренние инструменты. В AI-проектах работаю с LLM-интеграциями, RAG, агентными сценариями, политиками выполнения действий и оценкой качества.
 
-Рассматриваю вакансии backend-разработчика и разработчика автоматизаций с AI.
+Рассматриваю позиции AI Engineer, Backend Engineer и Automation Engineer.
 
-## Основной стек
+## Основной опыт
 
-- **Backend:** Python, FastAPI, Flask, PHP, Symfony, Laravel
-- **API и данные:** REST, WebSocket, PostgreSQL, MySQL, SQLite, Redis, SQLAlchemy, Doctrine ORM
-- **Автоматизация и AI:** обработка PDF, интеграции внешних API, AI-провайдеры, очереди и фоновые задачи
-- **Инфраструктура:** Docker, Docker Compose, Nginx, GitHub Actions
-- **Интерфейсы и инструменты:** JavaScript, TypeScript, React, PyQt5
+### Автоматизация e-commerce и складских операций — закрытый проект
 
-## Проекты
+Спроектировал внутреннюю систему печати этикеток и автоматизации обработки заказов: backend, desktop-клиент, взаимодействие по WebSocket, интеграции с CRM и генерация PDF. Также автоматизировал повторяющиеся операции менеджеров и поддерживал Symfony backend и интеграции с 1С.
 
-### Обработка PDF-изометрий
+По моим оценкам, время подготовки этикетки сократилось с 5 минут примерно до 15 секунд; автоматизировано до 90% повторяющихся действий, экономия времени команды составляла до 7 часов в неделю. Код проекта закрыт (private).
 
-[test_work_blueprints_ai](https://github.com/bigbruhh0/test_work_blueprints_ai) — прототип анализа PDF-чертежей трубопроводов. Локально извлекает размерные числа, координаты и геометрические кандидаты, формирует диагностические PDF, сохраняет обратную связь и выгружает результаты в JSON/Excel. Расчёт полной длины трубопроводов по нескольким листам остаётся экспериментальным и не заявляется как завершённый.
+**Python · aiohttp · PyQt · WebSocket · RetailCRM API · PHP/Symfony · REST/JWT · MySQL/PostgreSQL · Docker · ReportLab · PIL**
 
-**Python · FastAPI · PyMuPDF · pdfplumber · SQLite · Docker**
+### AI-платформа поддержки e-commerce — закрытый проект
 
-### Покупки и расчёт цены
+Разрабатывал платформу поддержки с постоянными диалогами, маршрутизацией к специалистам и подключаемыми LLM-провайдерами. Проект включает RAG-базу знаний, поиск с источниками, контролируемые вызовы инструментов, policy/permissions layer, интеграции с CRM, audit trail, regression evals и мониторинг качества.
 
-[symfony-purchase-example](https://github.com/bigbruhh0/symfony-purchase-example) — API-пример покупки с купонами, налоговым расчётом, транзакцией и адаптерами платёжных провайдеров.
+Исходный код закрыт (private); публичной ссылки нет.
 
-**PHP · Symfony · Doctrine · Docker**
+**Python · FastAPI · React · DeepSeek/OpenAI-compatible API · RAG · embeddings · PostgreSQL/pgvector · Docker Compose**
 
-### Управление Telegram-ботами
+### Realtime-мессенджер — личный закрытый проект
 
-[telegram-bot-manager](https://github.com/bigbruhh0/telegram-bot-manager) — веб-приложение для подключения ботов, настройки webhook, управления подписчиками и массовых рассылок через очередь.
+Разрабатываю мессенджер: REST backend, WebSocket/realtime-функции, чаты, вложения и уведомления. В проекте есть backend и web/desktop/mobile-клиенты с общими контрактами.
 
-**PHP · Laravel · MySQL · Queues · Docker**
+Проект ведётся совместно с `linzer0`; репозитории закрыты (private).
 
-### Короткие ссылки
+**Python · FastAPI · PostgreSQL · Redis · MinIO/S3 · OpenAPI · WebSocket · TypeScript/React · WebRTC/LiveKit · Docker**
 
-[test_laravel_short_links](https://github.com/bigbruhh0/test_laravel_short_links) — личный кабинет для создания коротких ссылок и просмотра статистики переходов с разделением данных пользователей.
+### Платформа удалённой разработки с Codex CLI — личный закрытый проект
 
-**PHP · Laravel · Filament · SQLite · Docker**
+Разрабатываю self-hosted VPS-инструмент для изолированной работы с Git-репозиториями и Codex CLI: управление рабочими копиями, запуск agent sessions, поток событий и подтверждение действий через API/UI. Проект ведётся совместно с `linzer0`.
 
-### Расписание курьеров
+Проект находится на стадии MVP; репозиторий закрытый (private).
 
-[php-symfony-schedule-manager](https://github.com/bigbruhh0/php-symfony-schedule-manager) и [php-vanilla-schedule-manager](https://github.com/bigbruhh0/php-vanilla-schedule-manager) — две реализации приложения для планирования поездок и проверки пересечений расписания курьеров.
+**TypeScript · Fastify · React · Vite · PostgreSQL · WebSocket · Docker Compose · Codex CLI**
 
-**PHP · Symfony / PDO · PostgreSQL · Docker**
+### PHP Backend Engineer — распределённая Symfony-система, закрытый коммерческий код
 
-### Другие проекты
+Работаю над backend-сервисами на PHP/Symfony: REST API и бизнес-логикой, интеграциями и асинхронным взаимодействием между сервисами. Участвую в проектировании OpenAPI-контрактов, поддержке legacy и production-разборе; спроектировал и запустил отдельный микросервис. Есть опыт разработки в большой команде с трекером задач и регулярными встречами. Примеры рабочего кода недоступны: система закрыта.
 
-- [FastApi-game-api](https://github.com/bigbruhh0/FastApi-game-api) — REST API карточной игры: пользователи, коллекции, игровые боксы и платежный callback.
-- [test-work-clean-php-blog](https://github.com/bigbruhh0/test-work-clean-php-blog) — блог на чистом PHP с собственными router, request/response, controller, repository и шаблонами Smarty.
-- [Laravel-crud](https://github.com/bigbruhh0/Laravel-crud) — REST CRUD для задач.
+**PHP · Symfony · PostgreSQL · Doctrine ORM · RabbitMQ · Docker · OpenAPI · CI/CD**
 
-## Совместная разработка
+## Публичные проекты: учебные работы и тестовые задания
 
-Участвую в совместной разработке MinChat и инженерных инструментов команды: backend и realtime-функции, клиенты для разных платформ, интеграционные контракты и процессы сборки/релиза. В истории backend-репозитория есть мои изменения административной безопасности и обработки состояний интерфейса.
+Эти репозитории показывают отдельные реализации и прототипы; они не заменяют основной коммерческий и продуктовый опыт выше.
 
-## Подход к описанию результатов
+- [Анализ PDF-изометрий](https://github.com/bigbruhh0/test_work_blueprints_ai) — прототип извлечения геометрии и размерных кандидатов, диагностические PDF и экспорт JSON/Excel. Расчёт полной длины трубопровода остаётся экспериментальным.
+- [Расчёт покупки на Symfony](https://github.com/bigbruhh0/symfony-purchase-example) — купоны, налоговый расчёт, транзакция и адаптеры платёжных провайдеров.
+- [Telegram Bot Manager](https://github.com/bigbruhh0/telegram-bot-manager) — веб-панель управления ботами, подписчиками, webhook и очередью рассылок.
+- [Сервис коротких ссылок](https://github.com/bigbruhh0/test_laravel_short_links) — кабинет, ссылки и статистика переходов пользователей.
+- [Расписание курьеров на Symfony](https://github.com/bigbruhh0/php-symfony-schedule-manager) и [на чистом PHP](https://github.com/bigbruhh0/php-vanilla-schedule-manager) — планирование поездок и проверка пересечений расписания.
+- [FastAPI game API](https://github.com/bigbruhh0/FastApi-game-api) — API карточной игры, коллекции, игровые боксы и платёжный callback.
+- [Блог на чистом PHP](https://github.com/bigbruhh0/test-work-clean-php-blog) — MVC-подобная структура, свои router/repository и шаблоны Smarty.
+- [Laravel CRUD](https://github.com/bigbruhh0/Laravel-crud) — REST API для списка задач.
 
-В профиль включены возможности, подтверждённые кодом. Репозитории не содержат проверяемых показателей пользователей, производительности или бизнес-эффекта, поэтому количественные результаты здесь не приводятся.
+## Технологии
+
+- **Backend:** Python, FastAPI, aiohttp, PHP, Symfony, Laravel, REST, WebSocket
+- **AI:** LLM API, RAG, embeddings, tool calling, agent workflows, evals, audit logging
+- **Данные и инфраструктура:** PostgreSQL, MySQL, SQLite, Redis, RabbitMQ, MinIO/S3, Docker, Linux, Nginx, CI/CD
+- **Интеграции и клиенты:** CRM API, 1С, React, TypeScript, PyQt, WebRTC, LiveKit
+
+В описании закрытых проектов не привожу ссылки на приватный код. Для публичных учебных проектов ссылки оставлены.
