@@ -1,82 +1,95 @@
 # Артур Сафин
 
-**AI Engineer · Backend-разработка · автоматизация процессов**
+### AI Engineer · Backend Engineer · Automation Engineer
 
-Более 5 лет занимаюсь backend-разработкой и автоматизацией бизнес-процессов. Работаю с Python/FastAPI и PHP/Symfony, проектирую API и интеграции, разбираю ручные workflow и превращаю их в сервисы и внутренние инструменты. В AI-проектах работаю с LLM-интеграциями, RAG, агентными сценариями, политиками выполнения действий и оценкой качества.
+Более 5 лет занимаюсь backend-разработкой и автоматизацией бизнес-процессов. Создаю API и интеграции, автоматизирую рабочие процессы и разрабатываю AI-инструменты с LLM, RAG и агентными сценариями.
 
-Рассматриваю позиции AI Engineer, Backend Engineer и Automation Engineer.
+---
 
-## Основной опыт
+## Опыт
 
-### Автоматизация e-commerce и складских операций — закрытый проект
+### Автоматизация e-commerce и склада
 
-Спроектировал внутреннюю систему печати этикеток и автоматизации обработки заказов: backend, desktop-клиент, взаимодействие по WebSocket, интеграции с CRM и генерация PDF. Также автоматизировал повторяющиеся операции менеджеров и поддерживал Symfony backend и интеграции с 1С.
+**Закрытый проект** · Python, PHP/Symfony
 
-По моим оценкам, время подготовки этикетки сократилось с 5 минут примерно до 15 секунд; автоматизировано до 90% повторяющихся действий, экономия времени команды составляла до 7 часов в неделю. Код проекта закрыт (private).
+Спроектировал систему обработки заказов и печати этикеток с backend, desktop-клиентом, WebSocket, интеграцией CRM и генерацией PDF. Автоматизировал повторяющиеся операции менеджеров, поддерживал Symfony backend и интеграции с 1С.
 
-**Python · aiohttp · PyQt · WebSocket · RetailCRM API · PHP/Symfony · REST/JWT · MySQL/PostgreSQL · Docker · ReportLab · PIL**
+> По моим оценкам, подготовка этикетки сократилась с 5 минут до 15 секунд; автоматизировано до 90% повторяющихся действий, высвобождено до 7 часов в неделю.
 
-### AI-платформа поддержки e-commerce — закрытый проект
+**Стек:** `Python` `aiohttp` `PyQt` `WebSocket` `RetailCRM API` `Symfony` `REST/JWT` `MySQL` `PostgreSQL` `Docker` `ReportLab` `PIL`
 
-Разрабатывал платформу поддержки с постоянными диалогами, маршрутизацией к специалистам и подключаемыми LLM-провайдерами. Проект включает RAG-базу знаний, поиск с источниками, контролируемые вызовы инструментов, policy/permissions layer, интеграции с CRM, audit trail, regression evals и мониторинг качества.
+### AI-платформа поддержки e-commerce
 
-Исходный код закрыт (private); публичной ссылки нет.
+**Закрытый проект** · Python, FastAPI
 
-**Python · FastAPI · React · DeepSeek/OpenAI-compatible API · RAG · embeddings · PostgreSQL/pgvector · Docker Compose**
+Платформа поддержки с постоянными диалогами, маршрутизацией к специалистам и подключаемыми LLM-провайдерами. Включает базу знаний RAG, поиск с источниками, контролируемые вызовы инструментов, policy/permissions layer, интеграции с CRM, аудит и оценку качества.
 
-### Realtime-мессенджер — личный закрытый проект
+**Стек:** `Python` `FastAPI` `React` `LLM API` `RAG` `embeddings` `PostgreSQL/pgvector` `Docker Compose`
 
-Разрабатываю мессенджер: REST backend, WebSocket/realtime-функции, чаты, вложения и уведомления. В проекте есть backend и web/desktop/mobile-клиенты с общими контрактами.
+### Realtime-мессенджер
 
-Проект ведётся в команде. Исходный код закрыт (private); [сайт проекта](https://min-chat.online).
+**Личный закрытый проект · ведётся в команде** · [min-chat.online](https://min-chat.online)
 
-**Python · FastAPI · PostgreSQL · Redis · MinIO/S3 · OpenAPI · WebSocket · TypeScript/React · WebRTC/LiveKit · Docker**
+Разрабатываю мессенджер с REST backend, WebSocket-функциями, чатами, вложениями и уведомлениями. Проект включает backend и web, desktop и mobile клиенты с общими контрактами.
 
-### Платформа удалённой разработки с Codex CLI — личный закрытый проект
+**Стек:** `Python` `FastAPI` `PostgreSQL` `Redis` `MinIO/S3` `OpenAPI` `WebSocket` `TypeScript` `React` `WebRTC` `LiveKit` `Docker`
 
-Разрабатываю self-hosted VPS-инструмент для изолированной работы с Git-репозиториями и Codex CLI: управление рабочими копиями, запуск agent sessions, привязка агентов к логам и обратной связи для немедленной реакции, подтверждение действий через API/UI. Проект ведётся в команде.
+### Платформа удалённой разработки с Codex CLI
 
-Проект находится на стадии MVP; репозиторий закрытый (private).
+**Личный закрытый проект · ведётся в команде · MVP**
 
-**TypeScript · Fastify · React · Vite · PostgreSQL · WebSocket · Docker Compose · Codex CLI**
+Self-hosted VPS-инструмент для изолированной работы с Git-репозиториями и Codex CLI. Управляет рабочими копиями и agent sessions, связывает агентов с логами и обратной связью для быстрой реакции, позволяет подтверждать действия через API и UI.
 
-### Game Dev Loop — личный закрытый проект
+**Стек:** `TypeScript` `Fastify` `React` `Vite` `PostgreSQL` `WebSocket` `Docker Compose` `Codex CLI`
 
-Разрабатываю локальную админ-панель для итеративной разработки игровых проектов с Codex и OpenCode. Оркестратор распределяет задачи между ролями планировщика, разработчика, ассистента и документатора; ведёт планы задач и спецификации функций, запускает работу в отдельных Git-ветках, выполняет командные и MCP-проверки, сохраняет историю запусков и их логи. Предусмотрены ревью результата и ручное подтверждение перед слиянием изменений.
+### Game Dev Loop
 
-Исходный код приватный.
+**Личный закрытый проект**
 
-**TypeScript · Node.js · React · Vite · Express · SQLite · Codex app-server · OpenCode · MCP**
+Локальная панель для итеративной разработки игровых проектов с Codex и OpenCode. Оркестратор распределяет задачи между ролями планировщика, разработчика, ассистента и документатора; ведёт планы и спецификации, запускает задачи в отдельных Git-ветках, выполняет командные и MCP-проверки и сохраняет логи. Перед слиянием предусмотрено ревью и ручное подтверждение.
 
-### PHP Backend Engineer — распределённая Symfony-система, закрытый коммерческий код
+**Стек:** `TypeScript` `Node.js` `React` `Vite` `Express` `SQLite` `Codex app-server` `OpenCode` `MCP`
 
-Работаю над backend-сервисами на PHP/Symfony: REST API и бизнес-логикой, интеграциями и асинхронным взаимодействием между сервисами. Участвую в проектировании OpenAPI-контрактов, поддержке legacy и production-разборе; спроектировал и запустил отдельный микросервис. Есть опыт разработки в большой команде с трекером задач и регулярными встречами. Примеры рабочего кода недоступны: система закрыта.
+### PHP Backend Engineer
 
-**PHP · Symfony · PostgreSQL · Doctrine ORM · RabbitMQ · Docker · OpenAPI · CI/CD**
+**Распределённая Symfony-система · закрытый коммерческий код**
 
-## Публичные проекты: учебные работы и тестовые задания
+Разрабатываю backend-сервисы на PHP/Symfony: REST API, бизнес-логику, интеграции и асинхронное взаимодействие между сервисами. Проектирую OpenAPI-контракты, поддерживаю legacy и участвую в production-разборе. Спроектировал и запустил отдельный микросервис. Работал в большой команде с трекером задач и регулярными встречами; примеры рабочего кода недоступны.
 
-Эти репозитории показывают отдельные реализации и прототипы; они не заменяют основной коммерческий и продуктовый опыт выше.
+**Стек:** `PHP` `Symfony` `PostgreSQL` `Doctrine ORM` `RabbitMQ` `Docker` `OpenAPI` `CI/CD`
 
-- [Анализ PDF-изометрий](https://github.com/bigbruhh0/test_work_blueprints_ai) — прототип извлечения геометрии и размерных кандидатов, диагностические PDF и экспорт JSON/Excel. Расчёт полной длины трубопровода остаётся экспериментальным.
-- [Расчёт покупки на Symfony](https://github.com/bigbruhh0/symfony-purchase-example) — купоны, налоговый расчёт, транзакция и адаптеры платёжных провайдеров.
-- [Telegram Bot Manager](https://github.com/bigbruhh0/telegram-bot-manager) — веб-панель управления ботами, подписчиками, webhook и очередью рассылок.
-- [Сервис коротких ссылок](https://github.com/bigbruhh0/test_laravel_short_links) — кабинет, ссылки и статистика переходов пользователей.
-- [Расписание курьеров на Symfony](https://github.com/bigbruhh0/php-symfony-schedule-manager) и [на чистом PHP](https://github.com/bigbruhh0/php-vanilla-schedule-manager) — планирование поездок и проверка пересечений расписания.
+---
+
+## Публичные проекты
+
+Учебные работы, тестовые задания и прототипы.
+
+- [Анализ PDF-изометрий](https://github.com/bigbruhh0/test_work_blueprints_ai) — извлечение геометрии и размерных кандидатов, диагностические PDF, экспорт JSON/Excel.
+- [Расчёт покупки на Symfony](https://github.com/bigbruhh0/symfony-purchase-example) — купоны, налоги, транзакции и адаптеры платёжных провайдеров.
+- [Telegram Bot Manager](https://github.com/bigbruhh0/telegram-bot-manager) — управление ботами, подписчиками, webhook и очередью рассылок.
+- [Сервис коротких ссылок](https://github.com/bigbruhh0/test_laravel_short_links) — личный кабинет и статистика переходов.
+- Расписание курьеров: [Symfony](https://github.com/bigbruhh0/php-symfony-schedule-manager) и [чистый PHP](https://github.com/bigbruhh0/php-vanilla-schedule-manager) — планирование поездок и проверка пересечений.
 - [FastAPI game API](https://github.com/bigbruhh0/FastApi-game-api) — API карточной игры, коллекции, игровые боксы и платёжный callback.
-- [Блог на чистом PHP](https://github.com/bigbruhh0/test-work-clean-php-blog) — MVC-подобная структура, свои router/repository и шаблоны Smarty.
+- [Блог на чистом PHP](https://github.com/bigbruhh0/test-work-clean-php-blog) — MVC-подобная структура, router/repository и шаблоны Smarty.
 - [Laravel CRUD](https://github.com/bigbruhh0/Laravel-crud) — REST API для списка задач.
+
+---
 
 ## Технологии
 
-- **Backend:** Python, FastAPI, aiohttp, PHP, Symfony, Laravel, REST, WebSocket
-- **AI:** LLM API, RAG, embeddings, tool calling, agent workflows, evals, audit logging
-- **Данные и инфраструктура:** PostgreSQL, MySQL, SQLite, Redis, RabbitMQ, MinIO/S3, Docker, Linux, Nginx, CI/CD
-- **Интеграции и клиенты:** CRM API, 1С, React, TypeScript, PyQt, WebRTC, LiveKit
+| Область | Стек |
+| --- | --- |
+| Backend | Python, FastAPI, aiohttp, PHP, Symfony, Laravel |
+| AI | LLM API, RAG, embeddings, tool calling, evals, audit logging |
+| Данные | PostgreSQL, MySQL, SQLite, Redis, RabbitMQ, MinIO/S3 |
+| Инфраструктура | Docker, Linux, Nginx, CI/CD |
+| Интеграции и клиенты | CRM API, 1С, React, TypeScript, PyQt, WebRTC, LiveKit |
 
 ## Образование
 
-- [УГНТУ](https://ugntu.ru/) — 2 курса, направление «Управление в технических системах».
-- [Международный институт экономики и права (МИЭП)](https://miep.ru/) — 5 курсов, «Менеджер проектов».
+| Учебное заведение | Обучение |
+| --- | --- |
+| [УГНТУ](https://ugntu.ru/) | 2 курса · «Управление в технических системах» |
+| [Международный институт экономики и права (МИЭП)](https://miep.ru/) | 5 курсов · «Менеджер проектов» |
 
-В описании закрытых проектов не привожу ссылки на приватный код. Для публичных учебных проектов ссылки оставлены.
+Для закрытых проектов указаны обобщённые описания без ссылок на приватный код. Ссылки в разделе публичных проектов ведут на доступные репозитории.
